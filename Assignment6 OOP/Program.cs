@@ -55,16 +55,18 @@ namespace Assignment6_OOP
             #region Part 02
 
             #region Q1
-            Circle circle = new Circle();
-            circle.radius = 5;
-            circle.DisplayShapeInfo();
 
-            Console.WriteLine("---------------------------");
+            //Circle circle = new Circle();
+            //circle.radius = 5;
+            //circle.DisplayShapeInfo();
 
-            Rectangle rectangle = new Rectangle();
-            rectangle.Dim01 = 5;
-            rectangle.Dim02 = 10;
-            rectangle.DisplayShapeInfo();
+            //Console.WriteLine("---------------------------");
+
+            //Rectangle rectangle = new Rectangle();
+            //rectangle.Dim01 = 5;
+            //rectangle.Dim02 = 10;
+            //rectangle.DisplayShapeInfo();
+
             #endregion
 
             

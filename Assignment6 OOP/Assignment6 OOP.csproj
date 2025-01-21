@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Q2\Classes\" />
+  </ItemGroup>
+
 </Project>
