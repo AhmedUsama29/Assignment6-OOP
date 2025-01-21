@@ -1,4 +1,6 @@
-﻿namespace Assignment6_OOP
+﻿using Assignment6_OOP.Classes;
+
+namespace Assignment6_OOP
 {
     internal class Program
     {
@@ -52,7 +54,20 @@
 
             #region Part 02
 
+            #region Q1
+            Circle circle = new Circle();
+            circle.radius = 5;
+            circle.DisplayShapeInfo();
 
+            Console.WriteLine("---------------------------");
+
+            Rectangle rectangle = new Rectangle();
+            rectangle.Dim01 = 5;
+            rectangle.Dim02 = 10;
+            rectangle.DisplayShapeInfo();
+            #endregion
+
+            
 
             #endregion
         }
