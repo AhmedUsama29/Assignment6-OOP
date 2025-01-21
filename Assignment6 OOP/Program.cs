@@ -1,4 +1,6 @@
 ﻿using Assignment6_OOP.Classes;
+using Assignment6_OOP.Q2.Classes;
+using System.Data;
 
 namespace Assignment6_OOP
 {
@@ -69,7 +71,22 @@ namespace Assignment6_OOP
 
             #endregion
 
-            
+            #region Q2
+            //string username = "admin";
+            //string password = "password123";
+            //string role = "admin";
+
+            //BasicAuthenticationService basicAuthenticationService = new BasicAuthenticationService(username,password,role);
+
+
+            //bool isAuthenticated = basicAuthenticationService.AuthenticateUser(username, password);
+            //bool isAuthorized = basicAuthenticationService.AuthorizeUser(username, role);
+
+            //Console.WriteLine($"Authentication successful: {isAuthenticated}");
+            //Console.WriteLine($"Authorization successful: {isAuthorized}"); 
+            #endregion
+
+
 
             #endregion
         }
