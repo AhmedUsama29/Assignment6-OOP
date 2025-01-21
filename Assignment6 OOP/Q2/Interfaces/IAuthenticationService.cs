@@ -9,9 +9,9 @@ namespace Assignment6_OOP.Q2_Interfaces
     internal interface IAuthenticationService
     {
 
-        public void AuthenticateUser(string username, string password);
+        bool AuthenticateUser(string username, string password);
 
-        public void AuthorizeUser(string username);
+        bool AuthorizeUser(string username, string role);
 
     }
 }
