@@ -1,5 +1,6 @@
 ﻿using Assignment6_OOP.Classes;
 using Assignment6_OOP.Q2.Classes;
+using Assignment6_OOP.Q3.Classes;
 using System.Data;
 
 namespace Assignment6_OOP
@@ -86,9 +87,18 @@ namespace Assignment6_OOP
             //Console.WriteLine($"Authorization successful: {isAuthorized}"); 
             #endregion
 
+            #region Q3
+            //EmailNotificationService emailNotificationService = new EmailNotificationService();
+            //SmsNotificationService smsNotificationService = new SmsNotificationService();
+            //PushNotificationService pushNotificationService = new PushNotificationService();
 
+            //emailNotificationService.SendNotification("Ahmed", "Welcome to Route");
+            //smsNotificationService.SendNotification("Osama", "Welcome to Route");
+            //pushNotificationService.SendNotification("Omar", "Welcome to Route"); 
+            #endregion
 
             #endregion
+
         }
     }
 }
